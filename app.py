@@ -76,8 +76,8 @@ with st.sidebar:
                     # Split PDF
                     chunks = split_documents(
                         documents,
-                        chunk_size=500,
-                        chunk_overlap=50
+                        chunk_size=1500,
+                        chunk_overlap=150
                     )
 
                     # Create Chroma vectorstore
